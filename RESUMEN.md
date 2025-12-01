@@ -1,8 +1,8 @@
-# 📋 RESUMEN DE IMPLEMENTACIÓN - PROYECTO DE TESTING EN PYTHON
+# RESUMEN DE IMPLEMENTACIÓN - PROYECTO DE TESTING EN PYTHON
 
-## ✅ Tareas Completadas
+## Tareas Completadas
 
-### 1. ✓ Estructura del Proyecto
+### 1. Estructura del Proyecto
 Se ha creado una estructura profesional de proyecto Python siguiendo las mejores prácticas:
 
 ```
@@ -24,7 +24,7 @@ Practica1Mohammed/
 
 ---
 
-## 📝 Descripción de Archivos Creados
+## Descripción de Archivos Creados
 
 ### `src/app/palindromo.py`
 - **Función:** `esPalindromo(cadena: str) -> bool`
@@ -46,48 +46,48 @@ Practica1Mohammed/
 - **Clase:** `TestEsPalindromoIntegracion` (2 métodos de test)
 - **Total:** 33 tests unitarios
 - **Categorías de prueba:**
-  - ✅ 14+ Casos positivos (palíndromos válidos)
-  - ✅ 5+ Casos negativos (no-palíndromos)
-  - ✅ 5+ Casos límite (vacíos, espacios, caracteres especiales)
-  - ✅ 5+ Casos de error (TypeError con diferentes tipos)
-  - ✅ 3 Casos parametrizados (extensibles)
-  - ✅ 2 Tests de integración (casos reales)
+  - 14+ Casos positivos (palíndromos válidos)
+  - 5+ Casos negativos (no-palíndromos)
+  - 5+ Casos límite (vacíos, espacios, caracteres especiales)
+  - 5+ Casos de error (TypeError con diferentes tipos)
+  - 3 Casos parametrizados (extensibles)
+  - 2 Tests de integración (casos reales)
 
 ---
 
-## 🧪 Resultados de Tests
+## Resultados de Tests
 
 ```
 Ran 33 tests in 0.009s
-OK ✅ - Todos los tests pasan correctamente
+OK - Todos los tests pasan correctamente
 ```
 
 ### Tests Ejecutados:
-- ✅ test_cadena_vacia
-- ✅ test_palindromo_simple_minusculas
-- ✅ test_palindromo_simple_mayusculas
-- ✅ test_palindromo_mixto_mayusculas_minusculas
-- ✅ test_palindromo_con_espacios
-- ✅ test_palindromo_con_puntuacion
-- ✅ test_palindromo_con_tildes
-- ✅ test_palindromo_con_dieresis
-- ✅ test_palindromo_numeros
-- ✅ test_palindromo_numeros_con_caracteres
-- ✅ test_entrada_no_es_cadena_es_entero
-- ✅ test_entrada_no_es_cadena_es_lista
-- ✅ test_entrada_no_es_cadena_es_none
-- ✅ test_entrada_no_es_cadena_es_diccionario
-- ✅ test_entrada_no_es_cadena_es_flotante
-- ✅ test_parametrizados_palindromos_validos (múltiples sub-tests)
-- ✅ test_parametrizados_no_palindromos (múltiples sub-tests)
-- ✅ test_parametrizados_tipos_invalidos (múltiples sub-tests)
-- ✅ test_casos_reales_frases_palindromas
-- ✅ test_entrada_usuario_tipica
-- ✅ Y muchos más...
+- test_cadena_vacia
+- test_palindromo_simple_minusculas
+- test_palindromo_simple_mayusculas
+- test_palindromo_mixto_mayusculas_minusculas
+- test_palindromo_con_espacios
+- test_palindromo_con_puntuacion
+- test_palindromo_con_tildes
+- test_palindromo_con_dieresis
+- test_palindromo_numeros
+- test_palindromo_numeros_con_caracteres
+- test_entrada_no_es_cadena_es_entero
+- test_entrada_no_es_cadena_es_lista
+- test_entrada_no_es_cadena_es_none
+- test_entrada_no_es_cadena_es_diccionario
+- test_entrada_no_es_cadena_es_flotante
+- test_parametrizados_palindromos_validos (múltiples sub-tests)
+- test_parametrizados_no_palindromos (múltiples sub-tests)
+- test_parametrizados_tipos_invalidos (múltiples sub-tests)
+- test_casos_reales_frases_palindromas
+- test_entrada_usuario_tipica
+- Y muchos más...
 
 ---
 
-## 🚀 Instrucciones para Usar el Proyecto
+## Instrucciones para Usar el Proyecto
 
 ### Ejecutar el programa interactivo:
 ```bash
@@ -114,7 +114,7 @@ print(esPalindromo("python"))                         # False
 
 ---
 
-## 📊 Cobertura de Tests - Matriz de Pruebas
+## Cobertura de Tests - Matriz de Pruebas
 
 | Tipo de Prueba | Ejemplos | Cantidad |
 |---|---|---|
@@ -129,24 +129,24 @@ print(esPalindromo("python"))                         # False
 
 ---
 
-## 🎯 Cumplimiento de Rúbrica
+## Cumplimiento de Rúbrica
 
 | Criterio | Estado | Observaciones |
 |---|---|---|
-| Presentación del documento | ✅ | README.md detallado |
-| Script con estructura de app Python | ✅ | Estructura src/app/tests |
-| Función esPalindromo correcta | ✅ | Con validación defensiva |
-| Código claro y descriptivo | ✅ | Comentarios explicativos |
-| Importa librerías correctas | ✅ | unittest, unicodedata |
-| Clase unittest.TestCase | ✅ | 2 clases con 33 métodos |
-| Código ordenado y estructurado | ✅ | Categorizado en 5 tipos |
-| assertEqual y métodos unittest | ✅ | assertTrue, assertFalse, assertRaises |
-| Parametrización de variables | ✅ | 3 funciones parametrizadas |
-| Tests exitosos | ✅ | 33/33 PASSED |
+| Presentación del documento | Completado | README.md detallado |
+| Script con estructura de app Python | Completado | Estructura src/app/tests |
+| Función esPalindromo correcta | Completado | Con validación defensiva |
+| Código claro y descriptivo | Completado | Comentarios explicativos |
+| Importa librerías correctas | Completado | unittest, unicodedata |
+| Clase unittest.TestCase | Completado | 2 clases con 33 métodos |
+| Código ordenado y estructurado | Completado | Categorizado en 5 tipos |
+| assertEqual y métodos unittest | Completado | assertTrue, assertFalse, assertRaises |
+| Parametrización de variables | Completado | 3 funciones parametrizadas |
+| Tests exitosos | Completado | 33/33 PASSED |
 
 ---
 
-## 📦 Dependencias
+## Dependencias
 
 ```
 unicodedata (incluido en Python)
@@ -156,7 +156,7 @@ Python 3.8+
 
 ---
 
-## 🔗 Instrucciones para GitHub
+## Instrucciones para GitHub
 
 Para subir este proyecto a GitHub:
 
@@ -180,14 +180,14 @@ Para subir este proyecto a GitHub:
 
 ---
 
-## 📌 Notas Importantes
+## Notas Importantes
 
-- ✅ Todos los tests pasan correctamente (33/33)
-- ✅ El código está completamente documentado
-- ✅ La función es robusta frente a entradas inválidas
-- ✅ Se incluyen casos de prueba exhaustivos
-- ✅ La estructura sigue estándares de proyectos Python profesionales
-- ✅ El README.md incluye instrucciones de instalación y uso
+- Todos los tests pasan correctamente (33/33)
+- El código está completamente documentado
+- La función es robusta frente a entradas inválidas
+- Se incluyen casos de prueba exhaustivos
+- La estructura sigue estándares de proyectos Python profesionales
+- El README.md incluye instrucciones de instalación y uso
 
 **Autor:** Mohammed El Oualid Bedda  
 **Fecha:** 01/12/2024  

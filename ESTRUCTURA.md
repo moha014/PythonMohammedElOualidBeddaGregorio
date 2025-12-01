@@ -1,55 +1,55 @@
-# 📁 ESTRUCTURA COMPLETA DEL PROYECTO
+# ESTRUCTURA COMPLETA DEL PROYECTO
 
 ```
 Practica1Mohammed/
 │
-├── 📄 .gitignore                    # Configuración de archivos ignorados por Git
-├── 📄 .git/                         # Repositorio Git local
-├── 📄 requirements.txt              # Dependencias del proyecto
-├── 📄 README.md                     # Documentación completa del proyecto
-├── 📄 RESUMEN.md                    # Resumen ejecutivo (este archivo)
+├── .gitignore                    # Configuración de archivos ignorados por Git
+├── .git/                         # Repositorio Git local
+├── requirements.txt              # Dependencias del proyecto
+├── README.md                     # Documentación completa del proyecto
+├── RESUMEN.md                    # Resumen ejecutivo (este archivo)
 │
-├── 📂 src/                          # Código fuente de la aplicación
-│   ├── 📄 __init__.py               # Inicializador del paquete src
-│   └── 📂 app/                      # Módulo principal de la aplicación
-│       ├── 📄 __init__.py           # Inicializador del paquete app
-│       ├── 📄 palindromo.py         # ⭐ FUNCIÓN PRINCIPAL: esPalindromo()
-│       └── 📄 main.py               # 🎮 Programa interactivo
+├── src/                          # Código fuente de la aplicación
+│   ├── __init__.py               # Inicializador del paquete src
+│   └── app/                      # Módulo principal de la aplicación
+│       ├── __init__.py           # Inicializador del paquete app
+│       ├── palindromo.py         # FUNCIÓN PRINCIPAL: esPalindromo()
+│       └── main.py               # Programa interactivo
 │
-├── 📂 tests/                        # Suite de pruebas unitarias
-│   ├── 📄 __init__.py               # Inicializador del paquete tests
-│   └── 📄 test_palindromo.py        # ✅ 33 tests unitarios
+├── tests/                        # Suite de pruebas unitarias
+│   ├── __init__.py               # Inicializador del paquete tests
+│   └── test_palindromo.py        # 33 tests unitarios
 │
-├── 📂 .venv/                        # Entorno virtual de Python (generado)
+├── .venv/                        # Entorno virtual de Python (generado)
 │
-└── 📄 funciones.py                  # Archivo original (mantenido para referencia)
+└── funciones.py                  # Archivo original (mantenido para referencia)
 ```
 
 ---
 
-## 📊 ESTADÍSTICAS DEL PROYECTO
+## ESTADÍSTICAS DEL PROYECTO
 
-### 📈 Líneas de Código
+### Líneas de Código
 - **src/app/palindromo.py:** 67 líneas (función + docs)
 - **src/app/main.py:** 95 líneas (programa interactivo)
 - **tests/test_palindromo.py:** 356 líneas (suite de tests)
 - **Total:** 518 líneas de código Python
 
-### 🧪 Tests Unitarios
+### Tests Unitarios
 - **Total de tests:** 33
-- **Resultado:** ✅ ALL PASSED
+- **Resultado:** ALL PASSED
 - **Tiempo de ejecución:** ~0.009 segundos
 
-### 📝 Documentación
+### Documentación
 - **README.md:** 400+ líneas
 - **RESUMEN.md:** 250+ líneas
 - **Docstrings:** Completos en todas las funciones y clases
 
 ---
 
-## 🎯 ARCHIVOS CLAVE
+## ARCHIVOS CLAVE
 
-### 1️⃣ `src/app/palindromo.py` - La función principal
+### `src/app/palindromo.py` - La función principal
 ```python
 def esPalindromo(cadena: str) -> bool:
     """
@@ -64,13 +64,13 @@ def esPalindromo(cadena: str) -> bool:
 - Elimina tildes/diéresis con unicodedata
 - Compara con su reverso
 
-### 2️⃣ `src/app/main.py` - Interfaz interactiva
+### `src/app/main.py` - Interfaz interactiva
 - Loop infinito hasta que el usuario escriba "salir"
-- Feedback visual (✓ palíndroma, ✗ no-palíndroma)
+- Mensaje indicando si la frase es palíndroma o no palíndroma
 - Manejo de excepciones
 - Mensaje de inicio y salida personalizados
 
-### 3️⃣ `tests/test_palindromo.py` - Suite de tests
+### `tests/test_palindromo.py` - Suite de tests
 - **Clase TestEsPalindromo:** 26 métodos de test
 - **Clase TestEsPalindromoIntegracion:** 2 métodos de test
 - **Casos cubiertos:**
@@ -83,7 +83,7 @@ def esPalindromo(cadena: str) -> bool:
 
 ---
 
-## 🔍 EJEMPLOS DE USO
+## EJEMPLOS DE USO
 
 ### Ejecutar tests
 ```bash
@@ -91,7 +91,7 @@ $ cd Practica1Mohammed
 $ .venv\Scripts\python.exe tests\test_palindromo.py
 ...
 Ran 33 tests in 0.009s
-OK ✅
+OK 
 ```
 
 ### Usar la función en Python
@@ -101,7 +101,7 @@ from src.app.palindromo import esPalindromo
 # Palíndromos válidos
 assert esPalindromo("radar") == True
 assert esPalindromo("Anilina") == True
-assert esPalindromo("A man, a plan, a canal: Panama") == True
+assert esPalindromo("A man, a plan, a canal: Panamera") == True
 
 # No-palíndromos
 assert esPalindromo("python") == False
@@ -124,43 +124,43 @@ $ .venv\Scripts\python.exe src/app/main.py
 ======================================================================
 
 Introduce una frase (o escribe 'salir' para terminar): Radar
-✓ La frase es palíndroma.
+La frase es palíndroma.
 
 Introduce una frase (o escribe 'salir' para terminar): python
-✗ La frase no es palíndroma.
+La frase no es palíndroma.
 
 Introduce una frase (o escribe 'salir' para terminar): salir
 ```
 
 ---
 
-## ✨ FEATURES IMPLEMENTADAS
+## FEATURES IMPLEMENTADAS
 
-✅ **Función robusta esPalindromo()**
+**Función robusta esPalindromo()**
 - Validación defensiva
 - Manejo de Unicode/tildes
 - Documentación completa
 - Error handling
 
-✅ **Interfaz interactiva main.py**
+**Interfaz interactiva main.py**
 - Loop del programa
 - Validación de entrada
 - Feedback visual
 - Manejo de Ctrl+C
 
-✅ **Suite de tests exhaustiva**
+**Suite de tests exhaustiva**
 - 33 tests unitarios
 - Casos parametrizados
 - Tests de integración
 - Cobertura completa
 
-✅ **Documentación profesional**
+**Documentación profesional**
 - README.md detallado
 - Docstrings en todo el código
 - Comentarios explicativos
 - Ejemplos de uso
 
-✅ **Estructura profesional**
+**Estructura profesional**
 - Paquetes organizados
 - __init__.py en cada carpeta
 - .gitignore configurado
@@ -168,7 +168,7 @@ Introduce una frase (o escribe 'salir' para terminar): salir
 
 ---
 
-## 🚀 PRÓXIMOS PASOS PARA GITHUB
+## PRÓXIMOS PASOS PARA GITHUB
 
 1. **Crear repositorio en GitHub:**
    ```
@@ -190,36 +190,26 @@ Introduce una frase (o escribe 'salir' para terminar): salir
 
 ---
 
-## 📋 CHECKLIST DE CUMPLIMIENTO
+## CHECKLIST DE CUMPLIMIENTO
 
-- ✅ Estructura de proyecto Python profesional
-- ✅ Función esPalindromo correctamente implementada
-- ✅ Validación defensiva (TypeError)
-- ✅ Manejo de tildes/diéresis con unicodedata
-- ✅ Clase unittest.TestCase implementada
-- ✅ 33 tests unitarios
-- ✅ Casos parametrizados
-- ✅ assertEqual/assertTrue/assertRaises
-- ✅ Código claro y comentado
-- ✅ Documentación exhaustiva
-- ✅ Repositorio Git inicializado
-- ✅ README.md completo
+- Estructura de proyecto Python profesional
+- Función esPalindromo correctamente implementada
+- Validación defensiva (TypeError)
+- Manejo de tildes/diéresis con unicodedata
+- Clase unittest.TestCase implementada
+- 33 tests unitarios
+- Casos parametrizados
+- assertEqual/assertTrue/assertRaises
+- Código claro y comentado
+- Documentación exhaustiva
+- Repositorio Git inicializado
+- README.md completo
 
 ---
 
-## 👤 INFORMACIÓN DEL AUTOR
+## INFORMACIÓN DEL AUTOR
 
 **Nombre:** Mohammed El Oualid Bedda  
 **Curso:** CPIFP Alan Turing - 24/25  
 **Fecha:** 01/12/2024  
 **Email:** mohammed.eloualid@gmail.com  
-
----
-
-## 📞 SOPORTE
-
-Para más información, consulta:
-- `README.md` - Documentación completa
-- `src/app/palindromo.py` - Documentación de la función
-- `tests/test_palindromo.py` - Documentación de tests
-

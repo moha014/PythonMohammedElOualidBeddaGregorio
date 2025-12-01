@@ -1,102 +1,102 @@
 ═══════════════════════════════════════════════════════════════════════════════
-  ✅ PROYECTO COMPLETADO: VERIFICACIÓN DE PALÍNDROMOS CON TESTING EN PYTHON
+  PROYECTO COMPLETADO: VERIFICACIÓN DE PALÍNDROMOS CON TESTING EN PYTHON
 ═══════════════════════════════════════════════════════════════════════════════
 
-🎓 INFORMACIÓN GENERAL
+INFORMACIÓN GENERAL
 ──────────────────────────────────────────────────────────────────────────────
   Institución:  CPIFP Alan Turing
   Curso:        24/25 - Puesta en Producción Segura
   Actividad:    Evaluación sobre Testing en Python 3
   Autor:        Mohammed El Oualid Bedda
   Fecha:        01/12/2024
-  Estado:       ✅ COMPLETADO Y FUNCIONAL
+  Estado:       COMPLETADO Y FUNCIONAL
 
-📂 ESTRUCTURA DEL PROYECTO
+ESTRUCTURA DEL PROYECTO
 ──────────────────────────────────────────────────────────────────────────────
 
 Practica1Mohammed/
 │
-├── 📂 src/app/
-│   ├── palindromo.py    → Función esPalindromo() ⭐
-│   └── main.py          → Programa interactivo 🎮
+├── src/app/
+│   ├── palindromo.py    → Función esPalindromo()
+│   └── main.py          → Programa interactivo
 │
-├── 📂 tests/
-│   └── test_palindromo.py → 33 tests unitarios ✅ (todos PASSED)
+├── tests/
+│   └── test_palindromo.py → 33 tests unitarios (todos PASSED)
 │
-├── 📄 README.md          → Documentación completa (~400 líneas)
-├── 📄 RESUMEN.md         → Resumen ejecutivo
-├── 📄 ESTRUCTURA.md      → Estructura visual
-├── 📄 INSTRUCCIONES_GITHUB.md → Pasos para GitHub
+├── README.md          → Documentación completa (~400 líneas)
+├── RESUMEN.md         → Resumen ejecutivo
+├── ESTRUCTURA.md      → Estructura visual
+├── INSTRUCCIONES_GITHUB.md → Pasos para GitHub
 │
 └── .git/                → Repositorio Git inicializado
 
-✨ CARACTERÍSTICAS IMPLEMENTADAS
+CARACTERÍSTICAS IMPLEMENTADAS
 ──────────────────────────────────────────────────────────────────────────────
 
-✅ Función esPalindromo() - ROBUSTA Y DEFENSIVA
+Función esPalindromo() - ROBUSTA Y DEFENSIVA
    • Valida tipos (TypeError si no es string)
    • Maneja tildes/diéresis con unicodedata
    • Ignora espacios, puntuación y mayúsculas
    • Documentación exhaustiva con docstring
 
-✅ Programa Interactivo - INTERFAZ AMIGABLE
+Programa Interactivo - INTERFAZ AMIGABLE
    • Loop de usuario hasta "salir"
-   • Feedback visual (✓ / ✗)
+   • Feedback visual (palíndroma / no palíndroma)
    • Manejo de excepciones
    • Mensajes formateados
 
-✅ Suite de Tests - COMPLETA Y EXHAUSTIVA
+Suite de Tests - COMPLETA Y EXHAUSTIVA
    • 33 tests unitarios
    • 100% de cobertura
    • Casos parametrizados
    • Tests de integración
-   • TODOS LOS TESTS PASAN ✅
+   • TODOS LOS TESTS PASAN
 
-✅ Estructura Profesional
+Estructura Profesional
    • Carpetas src/, tests/, .git/
    • __init__.py en cada paquete
    • .gitignore configurado
    • requirements.txt incluido
 
-✅ Documentación Exhaustiva
+Documentación Exhaustiva
    • README.md completo
    • Docstrings en todo el código
    • Comentarios explicativos
    • Guías de instalación y uso
 
-🧪 RESULTADOS DE TESTS
+RESULTADOS DE TESTS
 ──────────────────────────────────────────────────────────────────────────────
 
 Ran 33 tests in 0.009s
 
-✅ OK - Todos los tests pasan correctamente
+OK - Todos los tests pasan correctamente
 
 Desglose por categoría:
-  ✅ Casos positivos (palíndromos válidos):      14+ tests
-  ✅ Casos negativos (no-palíndromos):           5+ tests
-  ✅ Casos límite (edge cases):                  5+ tests
-  ✅ Casos de error (TypeError):                 5+ tests
-  ✅ Casos parametrizados:                       3 funciones
-  ✅ Tests de integración:                       2 tests
+  Casos positivos (palíndromos válidos):      14+ tests
+  Casos negativos (no-palíndromos):           5+ tests
+  Casos límite (edge cases):                  5+ tests
+  Casos de error (TypeError):                 5+ tests
+  Casos parametrizados:                       3 funciones
+  Tests de integración:                       2 tests
 
-📊 COBERTURA DE TESTS
+COBERTURA DE TESTS
 ──────────────────────────────────────────────────────────────────────────────
 
 Palíndromos testeados:
-  ✓ Simples:          "aba", "radar", "Anilina"
-  ✓ Con espacios:     "A B A", "A man a plan a canal Panama"
-  ✓ Con puntuación:   "A, B, A", "Dábale arroz a la zorra el abad"
-  ✓ Con números:      "12321", "a1b1a"
-  ✓ Con tildes:       "Anilína"
-  ✓ Límites:          "", "   ", ".,;"
+  Simples:          "aba", "radar", "Anilina"
+  Con espacios:     "A B A", "A man a plan a canal Panama"
+  Con puntuación:   "A, B, A", "Dábale arroz a la zorra el abad"
+  Con números:      "12321", "a1b1a"
+  Con tildes:       "Anilína"
+  Límites:          "", "   ", ".,;"
 
 No-palíndromos testeados:
-  ✗ "abc", "python", "hello", "mundo", "test"
+  "abc", "python", "hello", "mundo", "test"
 
 Validación de errores:
-  ✗ TypeError con: int, float, list, dict, None, tuple
+  TypeError con: int, float, list, dict, None, tuple
 
-🚀 INSTRUCCIONES PARA GITHUB
+INSTRUCCIONES PARA GITHUB
 ──────────────────────────────────────────────────────────────────────────────
 
 PASO 1: Crear repositorio en GitHub
@@ -120,19 +120,19 @@ PASO 2: Conectar repositorio local
 PASO 3: Verificar
 ─────────────────
   Abre: https://github.com/TU_USUARIO/palindromo-app
-  Deberías ver todos los archivos ✅
+  Deberías ver todos los archivos
 
 PASO 4: Compartir
 ─────────────────
   Enlace final: https://github.com/TU_USUARIO/palindromo-app
 
-💡 EJEMPLOS DE USO
+EJEMPLOS DE USO
 ──────────────────────────────────────────────────────────────────────────────
 
 Ejecutar tests:
   $ .venv\Scripts\python.exe tests\test_palindromo.py
   Ran 33 tests in 0.009s
-  OK ✅
+  OK
 
 Usar la función:
   >>> from src.app.palindromo import esPalindromo
@@ -146,57 +146,57 @@ Ejecutar programa interactivo:
   
   ========================================
   Introduce una frase (o escribe 'salir'): Radar
-  ✓ La frase es palíndroma.
+  La frase es palíndroma.
   ========================================
 
-📋 RÚBRICA - CUMPLIMIENTO COMPLETO (10.0 PUNTOS)
+RÚBRICA - CUMPLIMIENTO COMPLETO (10.0 PUNTOS)
 ──────────────────────────────────────────────────────────────────────────────
 
 Criterio                                    Puntos   Estado
 ─────────────────────────────────────────────────────────────
-1. Presentación del documento aportado      2.25     ✅
-2. Script correcto estructura app Python    0.5      ✅
-3. Función esPalindromo correcta            1.0      ✅
-4. Código claro y descriptivo               1.0      ✅
-5. Importa librerías correctas              0.25     ✅
-6. Clase unittest.TestCase correcta         0.5      ✅
-7. Código ordenado y estructurado           1.0      ✅
-8. assertEqual y métodos unittest           1.0      ✅
-9. Parametrización de variables             1.5      ✅
-10. Pruebas exitosas                        1.0      ✅
+1. Presentación del documento aportado      2.25     Completado
+2. Script correcto estructura app Python    0.5      Completado
+3. Función esPalindromo correcta            1.0      Completado
+4. Código claro y descriptivo               1.0      Completado
+5. Importa librerías correctas              0.25     Completado
+6. Clase unittest.TestCase correcta         0.5      Completado
+7. Código ordenado y estructurado           1.0      Completado
+8. assertEqual y métodos unittest           1.0      Completado
+9. Parametrización de variables             1.5      Completado
+10. Pruebas exitosas                        1.0      Completado
 ─────────────────────────────────────────────────────────────
-TOTAL                                       10.0     ✅ COMPLETO
+TOTAL                                       10.0     COMPLETO
 
-📄 ARCHIVOS DISPONIBLES
+ARCHIVOS DISPONIBLES
 ──────────────────────────────────────────────────────────────────────────────
 
 Documentación principal:
-  📖 README.md                  - Guía completa del proyecto
-  📖 RESUMEN.md                 - Resumen ejecutivo
-  📖 ESTRUCTURA.md              - Estructura visual
-  📖 INSTRUCCIONES_GITHUB.md    - Instrucciones detalladas para GitHub
-  📄 Este archivo (RESUMEN_FINAL.txt)
+  README.md                  - Guía completa del proyecto
+  RESUMEN.md                 - Resumen ejecutivo
+  ESTRUCTURA.md              - Estructura visual
+  INSTRUCCIONES_GITHUB.md    - Instrucciones detalladas para GitHub
+  Este archivo (RESUMEN_FINAL.txt)
 
 Código:
-  🐍 src/app/palindromo.py      - Función esPalindromo() (67 líneas)
-  🐍 src/app/main.py            - Programa interactivo (95 líneas)
-  🧪 tests/test_palindromo.py   - Suite de tests (356 líneas)
+  src/app/palindromo.py      - Función esPalindromo() (67 líneas)
+  src/app/main.py            - Programa interactivo (95 líneas)
+  tests/test_palindromo.py   - Suite de tests (356 líneas)
 
 Configuración:
-  ⚙️ .gitignore                 - Archivos ignorados por Git
-  ⚙️ requirements.txt           - Dependencias (unicodedata)
-  ⚙️ .git/                      - Repositorio Git inicializado
+  .gitignore                 - Archivos ignorados por Git
+  requirements.txt           - Dependencias (unicodedata)
+  .git/                      - Repositorio Git inicializado
 
-🔗 ENLACES DIRECTOS A ARCHIVOS
+ENLACES DIRECTOS A ARCHIVOS
 ──────────────────────────────────────────────────────────────────────────────
 
 En el proyecto local:
-  • src/app/palindromo.py         ← Función principal
-  • src/app/main.py               ← Programa interactivo
-  • tests/test_palindromo.py      ← Tests unitarios (33 tests)
-  • README.md                     ← Documentación completa
+  - src/app/palindromo.py         ← Función principal
+  - src/app/main.py               ← Programa interactivo
+  - tests/test_palindromo.py      ← Tests unitarios (33 tests)
+  - README.md                     ← Documentación completa
 
-👤 INFORMACIÓN DEL AUTOR
+INFORMACIÓN DEL AUTOR
 ──────────────────────────────────────────────────────────────────────────────
 
   Nombre:       Mohammed El Oualid Bedda
@@ -206,30 +206,30 @@ En el proyecto local:
   Fecha:        01/12/2024
   Email:        mohammed.eloualid@gmail.com
 
-✅ CHECKLIST FINAL
+CHECKLIST FINAL
 ──────────────────────────────────────────────────────────────────────────────
 
-[✅] Estructura de proyecto Python profesional
-[✅] Función esPalindromo() robusta y completa
-[✅] Validación defensiva (TypeError)
-[✅] Manejo de tildes/diéresis
-[✅] Clase unittest.TestCase implementada
-[✅] 33 tests unitarios
-[✅] Todos los tests PASSED
-[✅] Casos parametrizados
-[✅] assertEqual/assertTrue/assertRaises
-[✅] Código claro y comentado
-[✅] Documentación exhaustiva
-[✅] Repositorio Git inicializado
-[✅] Commits realizados
-[✅] README.md completo
-[✅] Listo para GitHub
+[X] Estructura de proyecto Python profesional
+[X] Función esPalindromo() robusta y completa
+[X] Validación defensiva (TypeError)
+[X] Manejo de tildes/diéresis
+[X] Clase unittest.TestCase implementada
+[X] 33 tests unitarios
+[X] Todos los tests PASSED
+[X] Casos parametrizados
+[X] assertEqual/assertTrue/assertRaises
+[X] Código claro y comentado
+[X] Documentación exhaustiva
+[X] Repositorio Git inicializado
+[X] Commits realizados
+[X] README.md completo
+[X] Listo para GitHub
 
-🎯 ESTADO FINAL: ✅ PROYECTO COMPLETADO Y FUNCIONAL
+ESTADO FINAL: PROYECTO COMPLETADO Y FUNCIONAL
 
 ═══════════════════════════════════════════════════════════════════════════════
 Fecha: 01/12/2024
 Versión: 1.0
-Estado: COMPLETADO ✅
+Estado: COMPLETADO
 ═══════════════════════════════════════════════════════════════════════════════
 
